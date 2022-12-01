@@ -1,0 +1,27 @@
+name: aoc
+synopsis: Advent of code challenge for 2022
+description: Please see the README at <https://github.com/micahhahn/aoc-2022/tree/trunk/#readme>
+homepage: https://github.com/micahhahn/aoc-2022/tree/trunk/#readme
+author: Micah Hahn
+version: 0.1.0.0
+maintainer: micah.s.hahn@gmail.com
+copyright: 2022 Micah Hahn
+github: micahhahn/aoc-2022
+license-file: LICENSE
+category: Web
+extra-doc-files:
+- LICENSE
+dependencies:
+- base
+ghc-options:
+  - -Wall
+  - -Wcompat
+  - -Widentities
+  - -Wincomplete-record-updates
+  - -Wpartial-fields
+  - -Wredundant-constraints
+  - -Wincomplete-uni-patterns
+library:
+  exposed-modules:
+  - Main
+  source-dirs: src
